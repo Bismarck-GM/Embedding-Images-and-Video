@@ -1,17 +1,32 @@
-#navBar ul {
-    list-style-type: none;
+#navBar {
+    width: 100%;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+    padding: 7px 30px 8px 30px;
+    background-color: white;
+}
   
-#navBar  li {
-    float: left;
-  }
+#navBar .navLogo img{
+    height: 50px;
+    
+}
+
+#navBar .navUploadImg img{
+  height: 35px;
   
-#navBar  li a {
-    display: block;
+}
+
+#navBar button {
+  background-color: "#157AC6";
+  color: white; 
+}
+
+#navBar  div {
+    display: inline-block;
+}
+
+  
+/* #navBar  li a {
+    
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -20,7 +35,7 @@
   
 #navBarli a:hover {
     background-color: #111;
-  }
+  } */
 
 footer ul {
     list-style-type: none;
