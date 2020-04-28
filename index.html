@@ -10,7 +10,7 @@
     <script src='main.js'></script>
 </head>
 <body>
-    <div id="navBar">
+    <nav id="navBar">
         <div class="navLogo">
             <a><img src="img/Logo.png" alt="logo"></a>
         </div>
@@ -31,18 +31,32 @@
             <a><button>Sign in</button></a>
         </div>
 
-    </div>
-    <div id="bigContainer">
-        <div id="videoSection">
+    </nav>
+    <section id="bigContainer">
+        <section id="videoSection">
             
-            <div id="video"></div>
-            <div id="information"></div>
-            <div id="description"></div>
-            <div id="comments"></div>
+            <div id="video">
+                <iframe 
+                src="https://www.youtube.com/embed/V74l_zS1x8E" 
+                frameborder="0" 
+                allow="accelerometer; 
+                autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+            <div id="information">
+                <img src="img/Stats.png" alt="img-info">
+            </div>
+            <div id="description">
+                <h6>Published on Feb 27, 2014</h6>
+                <p>How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com.</p>
+                <button>SHOW MORE</button>
+            </div>
+            
 
-        </div>
+        </section>
 
-        <div id="recommendedVideos">
+        <aside id="recommendedVideos">
             
             <div id="titleRecommended">
                 <span id="upNext">Up Next</span>
@@ -81,8 +95,8 @@
             <div></div>
             <div></div>
             <div></div>
-        </div>
-    </div>
+        </aside>
+    </section>
 
 </body>
 
