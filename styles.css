@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 #navBar {
     display: grid;
-    grid-template-columns: 5% 20% 60% 5% 5% 5%;
+    grid-template-columns: 5% 20% 60% 3.5% 3.5% 8%;
     width: 100%;
     margin: 0;
     background-color: white;
@@ -38,8 +41,8 @@
 .navSearch {
   display: grid;
   align-items: center;
-  padding-left: 10%;
-  grid-template-columns: 80% 20%;
+  padding-left: 5%;
+  grid-template-columns: 85% 15%;
   grid-template-rows: 100%;
   grid-column-start: 3;
   grid-column-end: 4;
@@ -104,7 +107,56 @@
   padding: 0 10px;
 }
 
+#bigContainer {
+  display: grid;
+  grid-template-columns: 5% 60% 27% 8% ;
+  
+}
 
+#recommendedVideos {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-rows: 1% repeat(20, 5%);
+  height: 3000px;
+  row-gap: 50px;
+  
+}
+
+.sidebarVideos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 70% 15% 15%;
+  column-gap: 10px;
+
+}
+
+.image {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  align-self: stretch;
+  justify-self: stretch;
+
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#titleRecommended {
+  display: flex;
+}
+
+#upNext {
+  justify-self:;
+
+}
+
+#autoPlay {
+  justify-self:;
+
+}
   
 /* #navBar  li a {
     
