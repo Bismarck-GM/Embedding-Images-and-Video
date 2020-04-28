@@ -132,12 +132,12 @@ body {
 #video iframe{
   width:100%;
   height: 400px;
-  
 }
 
 /* ------------- Stat --------------- */
 #information {
   background-color: white;
+  padding: 6% 6% 2% 6%;
 }
 
 #profile {
@@ -146,12 +146,51 @@ body {
   align-items: flex-end;
 }
 
+.functions {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0%;
+}
+
+.functionsLeft{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.functionsButtons{
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: white;
+  margin: 1% 0% 1%;
+  width: 100%
+
+}
+
+.functionsButtons span{
+  margin-right: 1%;
+
+}
+
+.functionsRight{
+  display: flex;
+  justify-content: flex-end;
+  width: 15%;
+
+}
+
+
 
 /* ------------- description --------------- */
 #description {
   background-color: white;
-  width: 50%;
-  margin: 1%;
+  margin-top: 0.5%;
+  padding: 6% 6% 2% 6%;
+}
+
+#description p{
+  margin: 2% 0%;
 }
 
 /* ----------------------- Sidebar Section ----------------------------- */
