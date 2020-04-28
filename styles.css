@@ -124,8 +124,8 @@ body {
 #videoSection {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  margin: 1%;
+  width: 85%;
+  margin-right: 0.5%;
 }
 
 /* ------------- Video --------------- */
@@ -136,29 +136,61 @@ body {
 }
 
 /* ------------- Stat --------------- */
-#videoSection img{
-  width: 560px; 
-  height: 315 px;
-  margin: 1%;
+#information {
+  background-color: white;
 }
+
+#profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 
 /* ------------- description --------------- */
 #description {
+  background-color: white;
   width: 50%;
   margin: 1%;
 }
 
 /* ----------------------- Sidebar Section ----------------------------- */
+
+#titleRecommended {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+#upNext {
+  margin-left: 4%;
+}
+
 #recommendedVideos {
   display: flex;
   flex-direction: column;
   background-color: white;
-  margin: 1%;
+  margin: 0px 0px 2% 0px;
 }
 .sidebarVideos {
+  display: flex;
+  margin: 2% 2% 2% 2%;
 
 }
-  
+
+.sidebarVideos div{
+  margin: 2%;
+}
+
+.showMore {
+  text-align: center;
+}
+
+#recommendedVideos hr {
+  color: grey;
+  width: 80%;
+  margin: auto;
+}
 /* #navBar  li a {
     
     color: white;
