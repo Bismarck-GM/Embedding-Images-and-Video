@@ -22,13 +22,13 @@ This project consists of building an HTML document that matches the appearance o
 
 - Github: [@Bismarck-GM](https://github.com/Bismarck-GM)
 - Twitter: [@Rewritablee](https://twitter.com/Rewritablee)
-- Linkedin: [linkedin](https://linkedin.com/in/geronimomorisot)
+- Linkedin: [geronimomorisot](https://linkedin.com/in/geronimomorisot)
 
 👤 **Santiago Rodriguez**
 
-- Github: [@githubhandle](https://github.com/santiagorodriguezbermudez)
-- Twitter: [@twitterhandle](https://twitter.com/srba87)
-- Linkedin: [linkedin](https://www.linkedin.com/in/srba87/)
+- Github: [@santiagorodriguezbermudez](https://github.com/santiagorodriguezbermudez)
+- Twitter: [@srba87](https://twitter.com/srba87)
+- Linkedin: [srba87](https://www.linkedin.com/in/srba87/)
 
 ## 🤝 Contributing
 
