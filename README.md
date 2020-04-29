@@ -1,8 +1,8 @@
 # Project Name
 
-> One paragraph statement about the project.
+> This is a YouTube page clone.
 
-![screenshot](./app_screenshot.png)
+![img/exampleScreenshot.png]
 
 Additional description about the project and its features.
 
