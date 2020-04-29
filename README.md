@@ -2,7 +2,7 @@
 
 > This is a YouTube page clone.
 
-![img/exampleScreenshot.png]
+![screenshot](img/exampleScreenshot.png)
 
 Additional description about the project and its features.
 
