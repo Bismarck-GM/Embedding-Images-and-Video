@@ -15,7 +15,7 @@ html {
 
 
 /* -------------------------------------------------- Navbar ------------------------------------------------------ */
-#navBar {
+.navBar {
     display: flex;
     padding: 5px 3%;
     background-color: white;
@@ -23,7 +23,7 @@ html {
     justify-content: space-around;
 }
   
-#navBar .navLogo img{
+.navBar .navLogo img{
   height: 50px;
   width: 200px;
 }
@@ -34,11 +34,11 @@ html {
 
 }
 
-#navBar .navUploadImg img{
+.navBar .navUploadImg img{
   height: 35px;
 }
 
-#navBar button {
+.navBar button {
   background-color: "#157AC6";
   color: white; 
 }
@@ -132,7 +132,7 @@ html {
 }
 
 /* ----------------------- Video Section ----------------------------- */
-#videoSection {
+.videoSection {
   display: flex;
   flex-direction: column;
   width: 60%;
@@ -141,27 +141,27 @@ html {
 
 /* ------------- Video --------------- */
 
-#video {
+.video {
   display: inline-block;
 }
-#video iframe{
+.video iframe{
   width: 100%;
   height: 639px;
 }
 
 /* ------------- Stat --------------- */
-#information {
+.information {
   background-color: white;
   padding: 15px 15px 5px 15px;
 }
 
-#profile {
+.profile {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-#profile p{
+.profile p{
   color: rgb(128, 128, 128);
 }
 
@@ -202,36 +202,41 @@ html {
 
 
 /* ------------- description --------------- */
-#description {
+.description {
   background-color: white;
   margin-top: 0.5%;
   padding: 15px 15px 5px 15px;
 }
 
-#description p{
+.description p{
   margin: 2% 0%;
 }
 
 /* ----------------------- Sidebar Section ----------------------------- */
 
-#titleRecommended {
+.titleRecommended {
   display: flex;
   justify-content: space-between;
   margin: 0px 0px 15px 15px;
 }
 
-#upNext {
+.upNext {
   font-size: 25px;
 
 }
 
-#recommendedVideos {
+.recommendedVideos {
   display: flex;
   flex-direction: column;
   background-color: white;
   margin: 0px 0px 2% 0px;
   padding: 15px 15px 15px 5px;
   width: 40%;
+}
+.recommendedVideos hr {
+  color: grey;
+  width: 80%;
+  margin: auto;
 }
 
 .image{
@@ -258,13 +263,6 @@ html {
   color: rgb(128, 128, 128);
 }
 
-#recommendedVideos hr {
-  color: grey;
-  width: 80%;
-  margin: auto;
-}
-
-
 /* ----------------------- Footer ----------------------------- */
 
 footer {
@@ -274,13 +272,13 @@ footer {
   padding: 15px 45px;
 }
 
-#footerTop {
+.footerTop {
   display: flex;
   align-items: center;
   
 }
 
-#footerLogo {
+.footerLogo {
   height: 40px;
 }
 
