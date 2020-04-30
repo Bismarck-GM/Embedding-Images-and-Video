@@ -19,14 +19,13 @@ html {
     display: flex;
     padding: 5px 3%;
     background-color: white;
-    justify-items: center;
+    align-items: center;
     justify-content: space-around;
 }
 .navLogo {
-  margin-right: -35px;
+  margin-right: 0px;
   display: flex;
   align-items: center;
-
 }
 
 .navLogo img{
@@ -39,21 +38,16 @@ html {
   margin-right: 30px;
 }
 
-.navBar .navUploadImg img{
-  height: 35px;
-}
-
 .navBar button {
   background-color: "#157AC6";
   color: white; 
 }
 
 .navSearch {
-  width: 70%;
+  width: 50%;
   display: grid;
   align-items: center;
   grid-template-columns: 90% 10%;
-  grid-template-rows: 100%;
  
 }
 
@@ -95,44 +89,18 @@ html {
   height: 100%;
 }
 
-.navUploadImg {
-  position: relative;
-  text-justify: center;
-  margin-right: 0px;
-  margin-left: -50px;
-}
-
-.navUploadImg img {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-.navButton {
-  position: relative;
-}
-
-.navButton button{
+.nav-button{
   font-weight: bold;
   background-color: #157AC6;
-  height: 2rem;
-  width: 4rem;
   border-width: 1px;
   border-top-left-radius: 2px 2px;
   border-top-right-radius: 2px 2px;
   border-bottom-right-radius: 2px 2px;
   border-bottom-left-radius: 2px 2px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  padding: 1%;
 }
 
 .nav-profile {
-  position: relative;
-}
-
-.nav-profile span {
   font-size: 35px;
   position: absolute;
   top: 50%;
@@ -140,7 +108,6 @@ html {
   color: #157AC6;
 
 }
-
 
 /* -------------------------------------------------- Main Section ------------------------------------------------------ */
 #bigContainer {
