@@ -23,7 +23,7 @@ html {
     justify-content: space-around;
 }
 .navLogo {
-  margin-right: -70px;
+  margin-right: -35px;
   display: flex;
   align-items: center;
 
@@ -98,8 +98,8 @@ html {
 .navUploadImg {
   position: relative;
   text-justify: center;
-  margin-right: -35px;
-  margin-left: -75px;
+  margin-right: 0px;
+  margin-left: -50px;
 }
 
 .navUploadImg img {
@@ -127,6 +127,20 @@ html {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+.nav-profile {
+  position: relative;
+}
+
+.nav-profile span {
+  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #157AC6;
+
+}
+
 
 /* -------------------------------------------------- Main Section ------------------------------------------------------ */
 #bigContainer {
