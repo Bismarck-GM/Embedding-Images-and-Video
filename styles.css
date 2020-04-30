@@ -178,12 +178,17 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-top: 10px;
 }
 
 .profile p{
   color: rgb(128, 128, 128);
 }
 
+.profile-stats{
+  display: flex;
+  padding: 5px 0px 5px 0px; 
+}
 .functions {
   display: flex;
   justify-content: space-between;
