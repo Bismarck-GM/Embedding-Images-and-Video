@@ -22,16 +22,21 @@ html {
     justify-items: center;
     justify-content: space-around;
 }
-  
-.navBar .navLogo img{
+.navLogo {
+  margin-right: -70px;
+  display: flex;
+  align-items: center;
+
+}
+
+.navLogo img{
   height: 50px;
   width: 200px;
 }
 
-.navLogo {
-  margin-right: -70px;
-  display: inline-block;
 
+.navLogo span {
+  margin-right: 30px;
 }
 
 .navBar .navUploadImg img{
