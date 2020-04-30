@@ -181,8 +181,10 @@ html {
   margin-top: 10px;
 }
 
-.profile p{
+.num-views{
   color: rgb(128, 128, 128);
+  border-bottom-color: rgb(22, 122, 198);
+  border-bottom-style: solid;
 }
 
 .profile-stats{
