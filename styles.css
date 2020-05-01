@@ -133,28 +133,50 @@ html {
   padding: 15px 15px 5px 15px;
 }
 
+.information h2 {
+  
+  font-size: 32px;
+  font-weight: 500;
+
+}
+
 .profile {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 10px;
+  padding: 10px 0px;
 }
 
-.num-views{
+.profile-name {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.num-views {
+  position: relative;
+  top: 10px;
   color: rgb(128, 128, 128);
   border-bottom-color: rgb(22, 122, 198);
   border-bottom-style: solid;
+  font-size: 37px;
+  padding: 10px 0px 0px 0px; 
 }
 
 .profile-stats{
   display: flex;
   padding: 5px 0px 5px 0px; 
+
 }
 
 .profile-img {
   display: flex;
   flex-direction:column;
   align-items: flex-end;
+}
+
+.profile-img img{
+  height: 80px;
 }
 
 .profile-name {
@@ -166,19 +188,24 @@ html {
 .functions {
   display: flex;
   justify-content: space-between;
-  margin: 2% 0%;
+  margin: 1% 0%;
 }
 
 .channel-button {
   background-color: red;
   color: white;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   display: flex;
-  border-top-left-radius: 2px 2px;
-  border-top-right-radius: 2px 2px;
-  border-bottom-right-radius: 2px 2px;
-  border-bottom-left-radius: 2px 2px;
+  border-top-left-radius: 4px 4px;
+  border-top-right-radius: 4px 4px;
+  border-bottom-right-radius: 4px 4px;
+  border-bottom-left-radius: 4px 4px;
+  height: 35px;
+  width: 150px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .functionsLeft{
@@ -193,20 +220,24 @@ html {
   border: none;
   background-color: white;
   margin: 1% 0% 1%;
-  width: 100%
-
+  width: 100%;
 }
 
 .functionsButtons span{
   margin-right: 1%;
   color: rgb(128, 128, 128);
+  font-size: 40px;
 }
 
 .functionsRight{
   display: flex;
   justify-content: flex-end;
-  width: 15%;
   color: rgb(128, 128, 128);
+
+}
+
+.functionsRight button{
+  margin-left: 50px;
 }
 
 
