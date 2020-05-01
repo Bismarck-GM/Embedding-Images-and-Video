@@ -113,7 +113,7 @@ html {
 .videoSection {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 69%;
   margin-right: 0.5%;
 }
 
@@ -228,6 +228,11 @@ html {
   display: flex;
   justify-content: space-between;
   margin: 0px 0px 15px 15px;
+  padding: 0% 0% 0% 0%;
+}
+
+.autoPlay {
+  height: 40px;
 }
 
 .upNext {
@@ -241,11 +246,11 @@ html {
   background-color: white;
   margin: 0px 0px 2% 0px;
   padding: 15px 15px 15px 5px;
-  width: 40%;
+  width: 31%;
 }
 .recommendedVideos hr {
   color: grey;
-  width: 80%;
+  width: 96%;
   margin: auto;
 }
 
@@ -254,7 +259,7 @@ html {
 }
 
 .title {
-  font-size: 27px;
+  font-size: 23px;
   font-weight: none;
 }
 
@@ -262,6 +267,7 @@ html {
 
 .sidebarVideos {
   display: flex;
+  padding: 0% 4% 0% 0%;
 }
 
 .sidebarVideos div{
